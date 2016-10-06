@@ -4,14 +4,6 @@ html, body {
 	margin: 0;
 }
 
-hr {
-	margin-bottom: 20px;
-}
-
-p {
-	display: inline;
-}
-
 .alignment {
 	float: left;
 	width: 400px;
@@ -59,12 +51,6 @@ header {
 	background-color: #ffffff;
 }
 
-img {
-	padding-right: 15px;
-	padding-left: 0px;
-	padding-bottom: 10px;
-}
-
 nav {
 	float: right;
 	display: inline;
@@ -93,11 +79,6 @@ aside {
 	display: inline-block;
 }
 
-.gallery {
-	float: left;
-	margin: 5px;
-}
-
 .asidewidth {
 	width: 960px;
 }
@@ -114,6 +95,4 @@ footer {
 .footercontainer {
 	width: 960px;
 }
-
-
 
