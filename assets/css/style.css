@@ -1,6 +1,6 @@
 html, body {
-	width: 100%;
-	height: 100%;
+	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 hr {
@@ -15,12 +15,13 @@ p {
 	float: left;
 	width: 400px;
 	height: 70px;
+	margin-top: 0 auto;
 	background-color: #4aaaa5;
 	box-sizing: border-box;
-	margin: 0 auto;
 	padding-left: 25px;
 	padding-right: 25px;
 	display: inline-block;
+	text-align: center;
 }
 
 .contacthr {
@@ -30,7 +31,6 @@ p {
 .contentwrapper {
 	width: 960px;
 	margin: 0 auto;
-	margin-top: 20px;
 	background-color: #4aaaa5;
 }
 
@@ -43,7 +43,7 @@ section {
 	width: 650px;
 	border-color: #dddddd;
 	background-color: #ffffff;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-bottom: 40px;
 	padding: 30px;
 	display: inline-block;
@@ -58,8 +58,12 @@ section {
 }
 
 header {
-	float: left;
 	background-color: #ffffff;
+	margin: 0 auto;
+	min-width: 0px;
+	width: 1250px;
+	height: 70px;
+	box-sizing: border-box;
 }
 
 img {
@@ -70,7 +74,8 @@ img {
 
 nav {
 	float: right;
-	margin: 20px 52px;
+	margin: 20px 10px;
+	margin-right: 145px;
 }
 
 ul {
@@ -82,7 +87,14 @@ ul {
 
 li {
 	display: inline;
+	padding-right: 15px;
+	padding-left: 15px;
 }
+
+.line {
+	border-right: 1px solid #666666
+}
+
 
 aside {
 	background-color: #ffffff;
@@ -90,7 +102,7 @@ aside {
 	text-align: center;
 	box-sizing: content-box;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 20px;
 	margin-left: 40px;
 	float: right;
 	display: inline-block;
@@ -124,14 +136,12 @@ footer {
 	text-align: center;
 	padding: 25px;
 	font-size: 12px;
-	max-width: 1250px;
+	width: 960px;
 }
-
 
 .pagewrap {
-	width: 800px;
+	width: 1000px;
 	margin: 0 auto;
 }
-
 
 
