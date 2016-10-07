@@ -24,6 +24,10 @@ p {
 	display: inline-block;
 }
 
+.contacthr {
+	margin: 0 auto;
+}
+
 .contentwrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -89,7 +93,7 @@ aside {
 	margin: 0 auto;
 	margin-top: 40px;
 	margin-left: 40px;
-	float: left;
+	float: right;
 	display: inline-block;
 }
 
