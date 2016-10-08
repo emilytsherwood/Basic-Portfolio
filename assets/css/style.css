@@ -1,7 +1,12 @@
-html, body {
+html {
 	margin: 0 auto;
 	overflow-x: hidden;
 }
+
+body {
+	background-image: url("../images/old_moon_@2X.jpg");
+}
+
 
 hr {
 	margin-bottom: 20px;
@@ -9,17 +14,16 @@ hr {
 
 p {
 	display: inline;
+	line-height: 1.5;
 }
 
 .alignment {
 	float: left;
-	width: 400px;
 	height: 70px;
+	width: 350px;
 	margin-top: 0 auto;
 	background-color: #4aaaa5;
-	box-sizing: border-box;
-	padding-left: 25px;
-	padding-right: 25px;
+	box-sizing: content-box;
 	display: inline-block;
 	text-align: center;
 }
@@ -35,7 +39,7 @@ p {
 }
 
 .containerwidth {
-	width: 960px;
+	width: 650px;
 }
 
 section {
@@ -44,7 +48,7 @@ section {
 	border-color: #dddddd;
 	background-color: #ffffff;
 	margin-top: 20px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 	padding: 30px;
 	display: inline-block;
 	float: left;
@@ -60,8 +64,6 @@ section {
 header {
 	background-color: #ffffff;
 	margin: 0 auto;
-	min-width: 0px;
-	width: 1250px;
 	height: 70px;
 	box-sizing: border-box;
 }
@@ -74,13 +76,11 @@ img {
 
 nav {
 	float: right;
-	margin: 20px 10px;
-	margin-right: 145px;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 25px;
     padding: 0;
     background-color: #ffffff;
 }
@@ -101,9 +101,9 @@ aside {
 	width: 270px;
 	text-align: center;
 	box-sizing: content-box;
-	margin: 0 auto;
 	margin-top: 20px;
-	margin-left: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 	float: right;
 	display: inline-block;
 }
@@ -130,18 +130,18 @@ textarea {
 	width: 100px;
 }
 
+.pagewrap {
+	width: 960px;
+	margin: 0 auto;
+}
+
 footer {
 	background-color: #666666;
 	clear: both;
 	text-align: center;
 	padding: 25px;
 	font-size: 12px;
-	width: 960px;
 }
 
-.pagewrap {
-	width: 1000px;
-	margin: 0 auto;
-}
 
 
