@@ -17,6 +17,14 @@ p {
 	line-height: 1.5;
 }
 
+a {
+	color: black;
+}
+
+a:hover {
+	background-color: #4aaaa5;
+}
+
 .alignment {
 	float: left;
 	height: 70px;
@@ -110,12 +118,13 @@ aside {
 
 .gallery {
 	float: left;
-	margin: 5px;
 }
 
-.asidewidth {
-	width: 960px;
+.gallery1 {
+	float: right;
 }
+
+
 
 input {
 	width: 588px;
